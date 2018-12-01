@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <title>Crystal Collector</title>
+  </head>
+  <body>
+      <div id="instruct-container" class="container">
+          <div id="instrutions">You have found yourself trapped in the Magical Mine.  In order to escape, you must select the proper combination of crystals.  Each type of crystal has it's own specific numerical value.  Click on a crystal to add its value to your score and continue choosing crystals until you reach the target.  Beware! If you exceed the target you will be trapped forever.
+          </div>
+      </div>
+      <div id="main-container" class="container">
+        <section class="crystal-section">   
+          <div class="crystal blue">
+            <img id="blue-crys" src="assets/images/bluecrystal.jpg" alt="Blue Crystal">
+            <h1>Blue Crystal</h1>
+          </div>
+
+          <div class="crystal green">
+            <img id="green-crys" src="assets/images/greencrystal.jpg" alt="Green Crystal">
+            <h1>Green Crystal</h1>
+          </div>
+
+          <div class="crystal red">
+            <img id="red-crys" src="assets/images/redcrystal.jpg" alt="Red Crystal">
+            <h1>Red Crystal</h1>
+          </div>
+
+          <div class="crystal adam">
+              <img id="adam-crys" src="assets/images/rainbowcrystal.jpg" alt="Adamantium">
+              <h1>Adamantium</h1>
+          </div>
+        </section>
+      </div>
+      <div id="sub-container" class="container">
+        <section class="scores-section">
+          <div id="scores">
+            <p id="target">Target Score:</p>
+            <p id="current">Current Score:  0</p>
+          </div>
+        </section>
+        <section class="scores-section">
+          <div id="tally">
+              <p id="wins">Wins: 0</p>
+              <p id="losses">Losses: 0</p>
+          </div>
+        </section>
+    </div>
+  </body>
+</html>
